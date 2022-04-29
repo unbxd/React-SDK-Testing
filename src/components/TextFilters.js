@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextFacets } from '@unbxd-ui/react-search-sdk';
+import { TextFacets } from '../@unbxd-ui/react-search-sdk/';
 
 export const FacetItemComponent = ({ itemData, onClick }) => {
     const { name, count, isSelected } = itemData;

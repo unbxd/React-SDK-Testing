@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
+    "react-bootstrap": "^2.3.1",
     "react-dom": "^18.1.0",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0"
@@ -18,7 +19,11 @@
     "react-scripts": "latest"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FacetActions } from '@unbxd-ui/react-search-sdk';
+import { FacetActions } from '../@unbxd-ui/react-search-sdk/';
 
 const ApplyFilter = ({ onApplyFilter }) => (
     <button className="-apply" onClick={onApplyFilter}>

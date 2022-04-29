@@ -44,7 +44,7 @@ Following is the example of usage:
 
 ```js
 // The wrapper search component
-import UnbxdSearchWrapper from '@unbxd-ui/react-search-sdk';
+import UnbxdSearchWrapper from '../@unbxd-ui/react-search-sdk/';
 
 // Search components ship with basic presentational styles as well.
 // They are optional, but if you want them you will need to also import the CSS file.
@@ -52,7 +52,7 @@ import UnbxdSearchWrapper from '@unbxd-ui/react-search-sdk';
 import '@unbxd-ui/react-search-sdk/public/dist/css/core.css';
 
 // You can import any component you want as a named export from 'react-search-sdk'
-import { Products, Pagination, Sort } from '@unbxd-ui/react-search-sdk';
+import { Products, Pagination, Sort } from '../@unbxd-ui/react-search-sdk/';
 
 // Now you can use
 <UnbxdSearchWrapper {...props}>

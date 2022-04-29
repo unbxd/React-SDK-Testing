@@ -1,5 +1,5 @@
 import React from 'react';
-import { ViewTypes } from '@unbxd-ui/react-search-sdk';
+import { ViewTypes } from '../@unbxd-ui/react-search-sdk/';
 import unbxdSearchConfig from '../unbxd-search.config.json';
 
 const ProductsViewItemComponent = ({ itemData, onClick }) => {
