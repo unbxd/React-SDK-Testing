@@ -3,6 +3,8 @@ import unbxdSearchConfig from './unbxd-search.config.json';
 import UnbxdSearchWrapper from './@unbxd-ui/react-search-sdk/';
 import SearchBar from './components/SearchBar';
 import ProductsListing from './components/ProductsListing';
+import './@unbxd-ui/react-search-sdk/public/dist/css/core.css';
+import './@unbxd-ui/react-search-sdk/public/dist/css/theme.css';
 import './style.css';
 
 export default function App() {
