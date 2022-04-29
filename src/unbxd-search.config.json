@@ -1,0 +1,59 @@
+{
+  "siteKey":"ss-unbxd-Dev-Purebaby14691628475726",
+  "apiKey":"c8a08914100a71671cfc8af7c6bcc662",
+  "attributesMap": {
+    "productName": "title",
+    "uniqueId": "uniqueId",
+    "imageUrl": "productImage",
+    "sellingPrice": "sortPrice",
+    "productUrl": "productUrl"
+  },
+  "showVariants": false,
+  "hashMode": false,
+  "variantAttributesMap": {},
+  "pageSize": 10,
+  "variantsCount": 4,
+  "showSwatches": false,
+  "groupBy": "",
+  "swatchAttributesMap": {},
+  "paginationType": "FIXED_PAGINATION",
+  "padding": 1,
+  "pageSizeOptions": [
+    {
+      "id": 5,
+      "value": "5"
+    },
+    {
+      "id": 10,
+      "value": "10"
+    },
+    {
+      "id": 15,
+      "value": "15"
+    },
+    {
+      "id": 20,
+      "value": "20"
+    }
+  ],
+  "viewTypes": [
+    "GRID",
+    "LIST"
+  ],
+  "searchBoxPlaceholder": "Search Demo",
+  "sortOptions": [
+    {
+      "label": "Most Relevant"
+    },
+    {
+      "label": "Lowest Price",
+      "field": "sortPrice",
+      "order": "asc"
+    },
+    {
+      "label": "Highest Price",
+      "field": "sortPrice",
+      "order": "desc"
+    }
+  ]
+}
