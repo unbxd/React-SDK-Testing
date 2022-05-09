@@ -4,10 +4,12 @@
 ## Local dev setup:
    1. download and unzip
    2. npm install
-   3. npm start and see the changes in [localhost](http://localhost:3000)
+   3. make sure you are installed node js and version is above 14
+   4. npm start and see the changes in [localhost](http://localhost:3000)
 
-
-
-# react-j6ngtk
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-j6ngtk)
+## you can also run this in your [StackBlitz](https://stackblitz.com/)
+   1. Create an account in StackBlitz using unbxd account
+   2. select import from git
+   3. paste https://github.com/unbxd/React-SDK-Testing.git
+   4. it will install all the dependecies and you will be able to run in browser.
+    
