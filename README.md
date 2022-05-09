@@ -9,7 +9,15 @@
 
 ## you can also run this in your [StackBlitz](https://stackblitz.com/)
    1. Create an account in StackBlitz using unbxd account
-   2. select import from git
-   3. paste https://github.com/unbxd/React-SDK-Testing.git
-   4. it will install all the dependecies and you will be able to run in browser.
+   2. select new project button
+   3. select react(javascript) from the front-end tab
+   4. select connect repository
+   5. select import an existing repository
+   7. paste https://github.com/unbxd/React-SDK-Testing
+   8. import
+   9. it will install all the dependecies and you will be able to run in browser.
+   10.  sometimes it will ask you to install packages, just click on the 'install missing packages' button.
+   11.  you will see 'Welcome to React sdk test app' message
+   12.  click on 'Open in New Window' button to preview in full page
+   13.  Once you are done this you can take pull from git anytime
     
