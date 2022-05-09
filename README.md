@@ -14,7 +14,7 @@
    4. select connect repository
    5. select import an existing repository
    7. paste https://github.com/unbxd/React-SDK-Testing
-   8. import
+   8. click on import button
    9. it will install all the dependecies and you will be able to run in browser.
    10.  sometimes it will ask you to install packages, just click on the 'install missing packages' button.
    11.  you will see 'Welcome to React sdk test app' message
