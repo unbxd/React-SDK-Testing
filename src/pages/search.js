@@ -34,6 +34,7 @@ export default function Search() {
     updateUrls: false,
     searchQueryParam: 'q',
     hashMode: false,
+    enableUnbxdAnalytics: true,
   };
   console.log(state, 'state');
 
@@ -54,6 +55,7 @@ export default function Search() {
     return false;
   };
   const onProductClick = (product) => {
+    window.Unbxd.track('click', { pid: product.uniqueId });
     routeHistory(`/product/${product.uniqueId}`);
   };
   const { refreshId } = state;

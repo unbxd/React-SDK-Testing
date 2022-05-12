@@ -65,6 +65,7 @@ export default function Header() {
                 }}
                 value={searchInput}
                 sx={{ ml: 1, flex: 1 }}
+                unbxdattr="sq"
                 placeholder="Search for a product"
                 inputProps={{ 'aria-label': 'Search for a product' }}
               />
@@ -78,6 +79,7 @@ export default function Header() {
                 }}
                 sx={{ p: '10px' }}
                 aria-label="search"
+                unbxdattr="sq_bt"
               >
                 <SearchIcon />
               </IconButton>
