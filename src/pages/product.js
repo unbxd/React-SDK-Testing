@@ -11,7 +11,7 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
-const loadRecs = () => {
+const loadRecs = (productId) => {
   var context = {
     widgets: {
       widget1: {
@@ -25,13 +25,13 @@ const loadRecs = () => {
       },
     },
     userInfo: {
-      userId: 'uid-1652360362704-34764',
-      siteKey: 'demo-unbxd700181503576558',
-      apiKey: '19762cd9ce8ffcdb88fee1404e3fb802',
+      siteKey: 'demo-german-unbxd809051586180937',
+      apiKey: '16e3cf8d510c50106d64f1ebb919b34e',
+      uid: 'uid-1567676738510-78132',
     },
     pageInfo: {
       pageType: 'PRODUCT',
-      productIds: ['SVCV'],
+      productIds: [productId],
     },
     unbxdDeviceType: {
       desktopBrowser: true,
@@ -48,6 +48,27 @@ const loadRecs = () => {
     },
   };
   window._unbxd_getRecommendations(context);
+
+  // console.log("nc recs")
+  //   function abc() {
+  //       window.BXUBX = !0,
+  //       window.BXUBX_UID = "uid-1619003810227-80514",  // need to update w.r.t unbxd
+  //       window.BXUBX_UD = {
+  //       customerid: "demo-unbxd700181503576558" // need to update w.r.t unbxd
+  //       };
+  //       var t, e = document.body, n = document.createElement("script"), r = "https://js.boxx.ai/js_init/?", i = {
+  //       client_id: "demo-unbxd700181503576558",
+  //       unbxdrecs : true,
+  //       host: window.location.hostname,
+  //       }, r = r + (t = i,
+  //       Object.keys(t).map(function(e) {
+  //       return [e, t[e]].map(encodeURIComponent).join("=")
+  //       }).join("&"));
+  //       n.type = "text/javascript",
+  //       n.src = r,
+  //       e.insertBefore(n, e.childNodes[0])
+  //   }
+  //       abc()
 };
 
 export default function Product(props) {
@@ -65,7 +86,7 @@ export default function Product(props) {
           response: { products },
         } = data;
         setProduct(products[0]);
-        loadRecs();
+        loadRecs(params.productId);
       });
   }, []);
 

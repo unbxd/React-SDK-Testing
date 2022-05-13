@@ -50,4 +50,11 @@ p {
 .UNX-search__container,
 .product-wrapper {
   padding-top: 24px;
+  display: flex;
 }
+.product-wrapper .hero-product {
+  width: 350px;
+}
+.recs-widget {
+  margin-top: 100px;
+ }

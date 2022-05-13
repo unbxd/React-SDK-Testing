@@ -1,5 +1,5 @@
 const categoryMap = {
-  jeans: `categoryPath:"cat400003"`,
-  polos: `categoryPath:"cat1002"`,
+  Möbel: `categoryPath:"Möbel"`,
+  Bekleidung: `categoryPath:"Bekleidung"`,
 };
 export default categoryMap;

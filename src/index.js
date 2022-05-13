@@ -19,7 +19,7 @@ const root = createRoot(rootElement);
 
   var jsfiles = [
     '//libraries.unbxdapi.com/ua-js/v1.0.0/uaLibrary.js',
-    '//d3m8huu8gvuyn3.cloudfront.net/rex_template_content/unbxd_rex_template_sdk.js',
+    '//libraries.unbxdapi.com/recs-sdk/v2.0.0/unbxd_rex_template_sdk.js',
   ];
 
   jsfiles.forEach(function (file, index) {
