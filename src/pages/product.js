@@ -25,9 +25,9 @@ const loadRecs = (productId) => {
       },
     },
     userInfo: {
-      siteKey: 'demo-german-unbxd809051586180937',
-      apiKey: '16e3cf8d510c50106d64f1ebb919b34e',
-      uid: 'uid-1567676738510-78132',
+      siteKey: unbxdSearchConfig.siteKey,
+      apiKey: unbxdSearchConfig.apiKey,
+      uid: Unbxd ? Unbxd.getUserId() : '',
     },
     pageInfo: {
       pageType: 'PRODUCT',

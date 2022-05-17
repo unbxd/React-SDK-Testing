@@ -1,25 +1,18 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import unbxdSearchConfig from './unbxd-search.config.json';
 
 import App from './App';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 (function () {
-  //var ubx = document.createElement('script');
-  window.UnbxdSiteName = 'demo-unbxd700181503576558';
+  window.UnbxdSiteName = unbxdSearchConfig.siteKey;
   window.UnbxdAnalyticsConf = window.UnbxdAnalyticsConf || {};
-  // ubx.type = 'text/javascript';
-  // ubx.async = true;
-  // ubx.src = '//d21gpk1vhmjuf5.cloudfront.net/unbxdAnalytics.js';
-  // (
-  //   document.getElementsByTagName('head')[0] ||
-  //   document.getElementsByTagName('body')[0]
-  // ).appendChild(ubx);
 
   var jsfiles = [
     '//libraries.unbxdapi.com/ua-js/v1.0.0/uaLibrary.js',
-    '//libraries.unbxdapi.com/recs-sdk/v2.0.0/unbxd_rex_template_sdk.js',
+    '//dx63c0414f4j1.cloudfront.net/rex_template_content/unbxd_recs_template_sdk_dev.js',
   ];
 
   jsfiles.forEach(function (file, index) {
