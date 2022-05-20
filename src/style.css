@@ -58,3 +58,8 @@ p {
 .recs-widget {
   margin-top: 100px;
  }
+ .search-box {
+  padding: 10px;
+  outline: 0;
+  width: 100%;
+ }

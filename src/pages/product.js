@@ -10,66 +10,46 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import { waitForGlobal } from '../utils.js';
 
-const loadRecs = (productId) => {
-  var context = {
-    widgets: {
-      widget1: {
-        name: 'recommendations1',
-      },
-      widget2: {
-        name: 'recommendations',
-      },
-      widget3: {
-        name: 'recommendations3',
-      },
-    },
-    userInfo: {
-      siteKey: unbxdSearchConfig.siteKey,
-      apiKey: unbxdSearchConfig.apiKey,
-      uid: Unbxd ? Unbxd.getUserId() : '',
-    },
-    pageInfo: {
-      pageType: 'PRODUCT',
-      productIds: [productId],
-    },
-    unbxdDeviceType: {
-      desktopBrowser: true,
-      mobileBrowser: false,
-    },
-    itemClickHandler: function (product) {
-      // product information will be provided here
-      alert(JSON.stringify(product));
-    },
-    dataParser: function (templateData) {
-      // modify the data received from recommendation API in case required.
-      // console.log("template data");
-      return templateData;
-    },
-  };
-  window._unbxd_getRecommendations(context);
-
-  // console.log("nc recs")
-  //   function abc() {
-  //       window.BXUBX = !0,
-  //       window.BXUBX_UID = "uid-1619003810227-80514",  // need to update w.r.t unbxd
-  //       window.BXUBX_UD = {
-  //       customerid: "demo-unbxd700181503576558" // need to update w.r.t unbxd
-  //       };
-  //       var t, e = document.body, n = document.createElement("script"), r = "https://js.boxx.ai/js_init/?", i = {
-  //       client_id: "demo-unbxd700181503576558",
-  //       unbxdrecs : true,
-  //       host: window.location.hostname,
-  //       }, r = r + (t = i,
-  //       Object.keys(t).map(function(e) {
-  //       return [e, t[e]].map(encodeURIComponent).join("=")
-  //       }).join("&"));
-  //       n.type = "text/javascript",
-  //       n.src = r,
-  //       e.insertBefore(n, e.childNodes[0])
-  //   }
-  //       abc()
-};
+// const loadRecs = (productId) => {
+//   var context = {
+//     widgets: {
+//       widget1: {
+//         name: 'recommendations1',
+//       },
+//       widget2: {
+//         name: 'recommendations',
+//       },
+//       widget3: {
+//         name: 'recommendations3',
+//       },
+//     },
+//     userInfo: {
+//       siteKey: unbxdSearchConfig.siteKey,
+//       apiKey: unbxdSearchConfig.apiKey,
+//       uid: Unbxd ? Unbxd.getUserId() : '',
+//     },
+//     pageInfo: {
+//       pageType: 'PRODUCT',
+//       productIds: [productId],
+//     },
+//     unbxdDeviceType: {
+//       desktopBrowser: true,
+//       mobileBrowser: false,
+//     },
+//     itemClickHandler: function (product) {
+//       // product information will be provided here
+//       alert(JSON.stringify(product));
+//     },
+//     dataParser: function (templateData) {
+//       // modify the data received from recommendation API in case required.
+//       // console.log("template data");
+//       return templateData;
+//     },
+//   };
+//   window._unbxd_getRecommendations(context);
+// };
 
 export default function Product(props) {
   const { state, dispatch } = useContext(AppContext);
@@ -78,7 +58,7 @@ export default function Product(props) {
   const [product, setProduct] = useState(null);
   useEffect(() => {
     fetch(
-      `https://search.unbxd.io/${unbxdSearchConfig.apiKey}/${unbxdSearchConfig.siteKey}/search?q=*&filter=uniqueId:${params.productId}`
+      `${unbxdSearchConfig.searchEndPoint}${unbxdSearchConfig.apiKey}/${unbxdSearchConfig.siteKey}/search?q=*&filter=uniqueId:${params.productId}`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -86,7 +66,10 @@ export default function Product(props) {
           response: { products },
         } = data;
         setProduct(products[0]);
-        loadRecs(params.productId);
+        waitForGlobal("getUnbxdRecommendations", function () {
+          console.log("found getUnbxdRecommendations");
+          getUnbxdRecommendations();
+        });
       });
   }, []);
 

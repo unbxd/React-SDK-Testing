@@ -9,9 +9,10 @@ const root = createRoot(rootElement);
 (function () {
   window.UnbxdSiteName = unbxdSearchConfig.siteKey;
   window.UnbxdAnalyticsConf = window.UnbxdAnalyticsConf || {};
+  window.NcRecs = true;
 
   var jsfiles = [
-    '//libraries.unbxdapi.com/ua-js/v1.0.0/uaLibrary.js',
+    '//libraries.unbxdapi.com/test-unbxdAnalytics.js',
     '//dx63c0414f4j1.cloudfront.net/rex_template_content/unbxd_recs_template_sdk_dev.js',
   ];
 

@@ -33,6 +33,7 @@ export default function Search() {
   const searchConfigurations = {
     updateUrls: false,
     searchQueryParam: 'q',
+    searchEndPoint: unbxdSearchConfig.searchEndPoint,
     hashMode: false,
     enableUnbxdAnalytics: true,
   };

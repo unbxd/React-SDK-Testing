@@ -1,6 +1,7 @@
 {
-  "siteKey": "demo-german-unbxd809051586180937",
-  "apiKey": "16e3cf8d510c50106d64f1ebb919b34e",
+  "siteKey": "ss-unbxd-cookiekidsdemosite813781652782666",
+  "apiKey": "c1076d7657de4f1eef152d690a6b38b2",
+  "searchEndPoint": "https://wingman-argocd.unbxd.io/",
   "attributesMap": {
     "productName": "title",
     "uniqueId": "uniqueId",
@@ -8,7 +9,7 @@
     "sellingPrice": "displaySalePrice",
     "productUrl": ""
   },
-  "showVariants": false,
+  "showVariants": true,
   "hashMode": false,
   "variantAttributesMap": {},
   "pageSize": 10,

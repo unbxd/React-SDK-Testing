@@ -44,8 +44,10 @@ export default function Category(props) {
   }, [params, state]);
   const searchConfigurations = {
     updateUrls: false,
+    searchEndPoint: unbxdSearchConfig.searchEndPoint,
     searchQueryParam: 'q',
     hashMode: false,
+    facetMultiSelect: true,
   };
   const onProductClick = (product) => {
     routeHistory(`/product/${product.uniqueId}`);
