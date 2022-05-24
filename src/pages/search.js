@@ -33,7 +33,9 @@ export default function Search() {
   const searchConfigurations = {
     updateUrls: false,
     searchQueryParam: 'q',
+    searchEndPoint: unbxdSearchConfig.searchEndPoint,
     hashMode: false,
+    enableUnbxdAnalytics: true,
   };
   console.log(state, 'state');
 
@@ -54,6 +56,7 @@ export default function Search() {
     return false;
   };
   const onProductClick = (product) => {
+    window.Unbxd.track('click', { pid: product.uniqueId });
     routeHistory(`/product/${product.uniqueId}`);
   };
   const { refreshId } = state;
@@ -72,15 +75,15 @@ export default function Search() {
         <MobileModal showFilters={showFilters} handleClose={handleClose} />
 
         <MobileMenu handleShow={handleShow} />
+        <div className="UNX-searchMeta__container">
+          <Crumbs />
+          <div className="UNX-searchMeta__more">
+            <ActiveFilters />
+            <ProductViewTypes />
+          </div>
+        </div>
 
         <div className="UNX-search__container">
-          <div className="UNX-searchMeta__container">
-            <Crumbs />
-            <div className="UNX-searchMeta__more">
-              <ActiveFilters />
-              <ProductViewTypes />
-            </div>
-          </div>
           <div className="UNX-searchResults__container">
             <div className="UNX-searchFacet__container">
               <MultilevelFilters />

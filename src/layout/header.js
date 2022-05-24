@@ -59,14 +59,18 @@ export default function Header() {
                 width: 400,
               }}
             >
-              <InputBase
+              <input
                 onChange={(e) => {
                   setSearchInput(e.target.value);
                 }}
+                type="text"
                 value={searchInput}
-                sx={{ ml: 1, flex: 1 }}
+                //sx={{ ml: 1, flex: 1 }}
+                unbxdattr="sq"
+                className="search-box"
                 placeholder="Search for a product"
-                inputProps={{ 'aria-label': 'Search for a product' }}
+                aria-label="Search for a product"
+              //inputProps={{ 'aria-label': 'Search for a product' }}
               />
               <IconButton
                 onClick={() => {
@@ -78,6 +82,7 @@ export default function Header() {
                 }}
                 sx={{ p: '10px' }}
                 aria-label="search"
+                unbxdattr="sq_bt"
               >
                 <SearchIcon />
               </IconButton>
