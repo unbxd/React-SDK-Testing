@@ -66,10 +66,20 @@ export default function Product(props) {
           response: { products },
         } = data;
         setProduct(products[0]);
+
+        // set pid in UnbxdAnalyticsConf
+        //window.UnbxdAnalyticsConf = window.UnbxdAnalyticsConf || {}; 
+        //window.UnbxdAnalyticsConf ['pid'] = products[0].uniqueId;
+
+        // fire product_view analytics event
+        window.Unbxd.track('product_view', { pid: products[0].uniqueId });
+
+        // call for recs
         waitForGlobal("getUnbxdRecommendations", function () {
           console.log("found getUnbxdRecommendations");
           getUnbxdRecommendations();
         });
+
       });
   }, []);
 
@@ -77,19 +87,24 @@ export default function Product(props) {
     <div className="pdp">
       <section className="product-wrapper">
         {product ? (
-          <Card className="hero-product">
-            <CardHeader title={product.title} />
-            <CardMedia
-              component="img"
-              image={product.imageUrl[0]}
-              alt={product.description}
-            />
-            <CardContent>
-              <Typography variant="body2" color="text.secondary">
-                {product.description}
-              </Typography>
-            </CardContent>
-          </Card>
+          <div>
+            <Card className="hero-product">
+              <CardHeader title={product.title} />
+              <CardMedia
+                component="img"
+                image={product.imageUrl[0]}
+                alt={product.description}
+              />
+              <CardContent>
+                <Typography variant="body2" color="text.secondary">
+                  {product.description}
+                </Typography>
+              </CardContent>
+            </Card>
+            <button className="add-to-cart" unbxdattr="AddToCart" unbxdparam_sku={product.uniqueId} unbxdparam_qty="1">Add to cart</button>
+            <button className="add-to-cart remove-cart" unbxdattr="RemoveFromCar" unbxdparam_sku={product.uniqueId} unbxdparam_qty="1">Remove from cart</button>
+
+          </div>
         ) : (
           <Skeleton animation="wave" />
         )}

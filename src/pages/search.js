@@ -75,15 +75,15 @@ export default function Search() {
         <MobileModal showFilters={showFilters} handleClose={handleClose} />
 
         <MobileMenu handleShow={handleShow} />
+        <div className="UNX-searchMeta__container">
+          <Crumbs />
+          <div className="UNX-searchMeta__more">
+            <ActiveFilters />
+            <ProductViewTypes />
+          </div>
+        </div>
 
         <div className="UNX-search__container">
-          <div className="UNX-searchMeta__container">
-            <Crumbs />
-            <div className="UNX-searchMeta__more">
-              <ActiveFilters />
-              <ProductViewTypes />
-            </div>
-          </div>
           <div className="UNX-searchResults__container">
             <div className="UNX-searchFacet__container">
               <MultilevelFilters />

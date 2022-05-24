@@ -48,6 +48,7 @@ export default function Category(props) {
     searchQueryParam: 'q',
     hashMode: false,
     facetMultiSelect: true,
+    enableUnbxdAnalytics: true,
   };
   const onProductClick = (product) => {
     routeHistory(`/product/${product.uniqueId}`);
@@ -64,14 +65,14 @@ export default function Category(props) {
           getCategoryId={getCategoryId}
           searchConfigurations={searchConfigurations}
         >
-          <div className="UNX-search__container">
-            <div className="UNX-searchMeta__container">
-              <Crumbs />
-              <div className="UNX-searchMeta__more">
-                <ActiveFilters />
-                <ProductViewTypes />
-              </div>
+          <div className="UNX-searchMeta__container">
+            <Crumbs />
+            <div className="UNX-searchMeta__more">
+              <ActiveFilters />
+              <ProductViewTypes />
             </div>
+          </div>
+          <div className="UNX-search__container">
             <div className="UNX-searchResults__container">
               <div className="UNX-searchFacet__container">
                 <MultilevelFilters />

@@ -52,6 +52,9 @@ p {
   padding-top: 24px;
   display: flex;
 }
+.UNX-searchMeta__container {
+  padding-top: 24px;
+}
 .product-wrapper .hero-product {
   width: 350px;
 }
@@ -62,4 +65,17 @@ p {
   padding: 10px;
   outline: 0;
   width: 100%;
+ }
+ .add-to-cart {
+  background: #486383;
+  border-color: #486383;
+  color: #fff;
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+ }
+ .remove-cart {
+  background: #fecd08;
+  border-color: #fecd08;
+  color: #000;
  }
