@@ -102,7 +102,7 @@ export default function Product(props) {
               </CardContent>
             </Card>
             <button className="add-to-cart" unbxdattr="AddToCart" unbxdparam_sku={product.uniqueId} unbxdparam_qty="1">Add to cart</button>
-            <button className="add-to-cart remove-cart" unbxdattr="RemoveFromCar" unbxdparam_sku={product.uniqueId} unbxdparam_qty="1">Remove from cart</button>
+            <button className="add-to-cart remove-cart" unbxdattr="RemoveFromCart" unbxdparam_sku={product.uniqueId} unbxdparam_qty="1">Remove from cart</button>
 
           </div>
         ) : (
