@@ -1,5 +1,5 @@
 import React from 'react';
-import { Products } from '../@unbxd-ui/react-search-sdk/';
+import Products  from '../@unbxd-ui/react-search-sdk/src/modules/products';
 import unbxdSearchConfig from '../unbxd-search.config.json';
 
 const ProductsListing = ({ onProductClick }) => {

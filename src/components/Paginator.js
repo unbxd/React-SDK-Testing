@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pagination } from '../@unbxd-ui/react-search-sdk/';
+import Pagination  from '../@unbxd-ui/react-search-sdk/src/modules/pagination';
 import unbxdSearchConfig from '../unbxd-search.config.json';
 
 const Paginator = () => {

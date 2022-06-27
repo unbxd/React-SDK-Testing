@@ -1,5 +1,5 @@
 import React from 'react';
-import { SearchTitle } from '../@unbxd-ui/react-search-sdk/';
+import SearchTitle  from '../@unbxd-ui/react-search-sdk/src/modules/searchTitle';
 
 const SearchDescription = () => {
     return (<SearchTitle />)
