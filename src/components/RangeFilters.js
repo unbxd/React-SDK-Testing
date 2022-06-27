@@ -1,5 +1,5 @@
 import React from 'react';
-import { RangeFacets } from '../@unbxd-ui/react-search-sdk/';
+import RangeFacets  from '../@unbxd-ui/react-search-sdk/src/modules/rangeFacets';
 
 export const FacetItemComponent = ({ itemData, onClick, priceUnit }) => {
     const { from, end, facetName, isSelected = false } = itemData;

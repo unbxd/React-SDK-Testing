@@ -1,5 +1,5 @@
 import React from 'react';
-import { SelectedFacets } from '../@unbxd-ui/react-search-sdk/';
+import SelectedFacets  from '../@unbxd-ui/react-search-sdk/src/modules/selectedFacets';
 
 const FacetItemComponent = ({ itemData, onClick, priceUnit }) => {
   const { name, type, dataId } = itemData;

@@ -1,0 +1,2451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Match Snapshot for Combined Facets 1`] = `
+Array [
+  <div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="brand_uFilter"
+        >
+          FILTER BY BRAND
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Keen"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Keen
+             - 
+            18
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Scarpa"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Scarpa
+             - 
+            18
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Salomon"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Salomon
+             - 
+            12
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="The North Face"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            The North Face
+             - 
+            12
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Merrell"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Merrell
+             - 
+            9
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Vasque"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Vasque
+             - 
+            9
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Burke and Wills"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Burke and Wills
+             - 
+            8
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Vango"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Vango
+             - 
+            8
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Sahara Swags"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Sahara Swags
+             - 
+            7
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Mammut"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Mammut
+             - 
+            5
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Patagonia"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Patagonia
+             - 
+            5
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Rainbird"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Rainbird
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Topo Athletic"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Topo Athletic
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Lock Laces"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Lock Laces
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Oztrail"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Oztrail
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Sea to Summit"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Sea to Summit
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Teva"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Teva
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Under Armour"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Under Armour
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Arc'teryx"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Arc'teryx
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Bridgedale"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Bridgedale
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Fjallraven"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Fjallraven
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="HI-TEC"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            HI-TEC
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Petzl"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Petzl
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="SBR"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            SBR
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Wilderness Equipment"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Wilderness Equipment
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Boot Bananas"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Boot Bananas
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="CamelBak"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            CamelBak
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Dakine"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Dakine
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Eclectic Products"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Eclectic Products
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Gear Aid"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Gear Aid
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Grangers"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Grangers
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Jack Wolfskin"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Jack Wolfskin
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Kuhl"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Kuhl
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Metolius"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Metolius
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Osprey"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Osprey
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="brand_uFilter"
+            data-id="Yakima"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Yakima
+             - 
+            1
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-bucketedFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+        >
+          CATEGORY
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item -l1 -selected"
+            data-id="All"
+            data-testid="UNX_multilevelFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            All
+             
+          </button>
+          <button
+            className="UNX-facet__item -l2 "
+            data-id="All%20Products"
+            data-testid="UNX_multilevelFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            All Products
+             
+            <span>
+              -
+              159
+            </span>
+          </button>
+          <button
+            className="UNX-facet__item -l2 "
+            data-id="Camp%20%26%20Hike"
+            data-testid="UNX_multilevelFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Camp & Hike
+             
+            <span>
+              -
+              1
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="Best_Use_uFilter"
+        >
+          FILTER BY BEST USE
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Hiking"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Hiking
+             - 
+            107
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Camping"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Camping
+             - 
+            29
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Mountaineering"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Mountaineering
+             - 
+            8
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Everyday"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Everyday
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Multisport"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Multisport
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Travelling"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Travelling
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Running"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Running
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Climbing"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Climbing
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Snow"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Snow
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="Best_Use_uFilter"
+            data-id="Tactical"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Tactical
+             - 
+            1
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-rangefacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__headerContainer"
+        >
+          <div
+            className="UNX-facet__header"
+          >
+            FILTER BY PRICE
+          </div>
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[0-100]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            0
+             - 
+            $
+             
+            100
+             - 
+            21
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[100-200]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            100
+             - 
+            $
+             
+            200
+             - 
+            18
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[200-300]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            200
+             - 
+            $
+             
+            300
+             - 
+            60
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[300-400]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            300
+             - 
+            $
+             
+            400
+             - 
+            38
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[400-600]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            400
+             - 
+            $
+             
+            600
+             - 
+            13
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[600-700]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            600
+             - 
+            $
+             
+            700
+             - 
+            1
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[700-900]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            700
+             - 
+            $
+             
+            900
+             - 
+            4
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[900-1000]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            900
+             - 
+            $
+             
+            1000
+             - 
+            3
+          </div>
+          <div
+            className="UNX-facet__item "
+            data-facet-name="price"
+            data-id="[1000-1100]"
+            data-testid="UNX_rangeFacet__facetItem"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            $
+             
+            1000
+             - 
+            $
+             
+            1100
+             - 
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-bucketedFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+        >
+          SUBCATEGORY
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item -l1 "
+            data-id="All%20Products"
+            data-testid="UNX_multilevelFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            All Products
+             
+            <span>
+              -
+              159
+            </span>
+          </button>
+          <button
+            className="UNX-facet__item -l1 "
+            data-id="Camp%20%26%20Hike"
+            data-testid="UNX_multilevelFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Camp & Hike
+             
+            <span>
+              -
+              1
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Size_uFilter"
+        >
+          FILTER BY SIZE
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US9"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US9
+             - 
+            81
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US9.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US9.5
+             - 
+            68
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US10"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US10
+             - 
+            67
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US8.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US8.5
+             - 
+            64
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US8"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US8
+             - 
+            59
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US10.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US10.5
+             - 
+            44
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US12"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US12
+             - 
+            43
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US13"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US13
+             - 
+            42
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US11.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US11.5
+             - 
+            40
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US7.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US7.5
+             - 
+            38
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US11"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US11
+             - 
+            35
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US7"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US7
+             - 
+            29
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US6"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US6
+             - 
+            20
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US6.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US6.5
+             - 
+            20
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="L"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            L
+             - 
+            16
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="M"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            M
+             - 
+            16
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="XL"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            XL
+             - 
+            15
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="S"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            S
+             - 
+            14
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="Single"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Single
+             - 
+            13
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US12.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US12.5
+             - 
+            9
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US13 Kids"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US13 Kids
+             - 
+            5
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US5
+             - 
+            5
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="XS"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            XS
+             - 
+            5
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="Double"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Double
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US1"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US1
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US12 Kids"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US12 Kids
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US2"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US2
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US3"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US3
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US4"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US4
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="XXL"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            XXL
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="46"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            46
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="48"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            48
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="50"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            50
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="52"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            52
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="54"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            54
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="XXXL"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            XXXL
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="32"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            32
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="34"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            34
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="36"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            36
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="6"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            6
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US13.5"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US13.5
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Size_uFilter"
+            data-id="US14"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            US14
+             - 
+            1
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Bag_Type_uFilter"
+        >
+          FILTER BY BAG TYPE
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Bag_Type_uFilter"
+            data-id="Climbing"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Climbing
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Bag_Type_uFilter"
+            data-id="Daypacks"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Daypacks
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Bag_Type_uFilter"
+            data-id="Duffel Bags"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Duffel Bags
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Bag_Type_uFilter"
+            data-id="Hiking Packs"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Hiking Packs
+             - 
+            1
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Bag_Type_uFilter"
+            data-id="Wheeled Luggage"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Wheeled Luggage
+             - 
+            1
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Fitment_uFilter"
+        >
+          FILTER BY FITMENT
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Fitment_uFilter"
+            data-id="Regular"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Regular
+             - 
+            72
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Fitment_uFilter"
+            data-id="Slim"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Slim
+             - 
+            2
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Fitment_uFilter"
+            data-id="Wide"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Wide
+             - 
+            2
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Swag_Type_uFilter"
+        >
+          FILTER BY SWAG TYPE
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Swag_Type_uFilter"
+            data-id="Dome"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Dome
+             - 
+            12
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Swag_Type_uFilter"
+            data-id="Traditional"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Traditional
+             - 
+            6
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Capacity_uFilter"
+        >
+          FILTER BY CAPACITY
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Capacity_uFilter"
+            data-id="3 Person"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            3 Person
+             - 
+            5
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Capacity_uFilter"
+            data-id="2 Person"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            2 Person
+             - 
+            4
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Capacity_uFilter"
+            data-id="4 Person"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            4 Person
+             - 
+            1
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Season_uFilter"
+        >
+          FILTER BY SEASON
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Season_uFilter"
+            data-id="3 Season"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            3 Season
+             - 
+            6
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Season_uFilter"
+            data-id="4 Season"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            4 Season
+             - 
+            4
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Pant_Type_uFilter"
+        >
+          FILTER BY PANT TYPE
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Pant_Type_uFilter"
+            data-id="Waterproof"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Waterproof
+             - 
+            11
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Pant_Type_uFilter"
+            data-id="Hiking"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Hiking
+             - 
+            6
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Pant_Type_uFilter"
+            data-id="Softshell"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Softshell
+             - 
+            1
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Gender_uFilter"
+        >
+          FILTER BY GENDER
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Gender_uFilter"
+            data-id="Men"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Men
+             - 
+            51
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Gender_uFilter"
+            data-id="Women"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Women
+             - 
+            46
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Gender_uFilter"
+            data-id="Unisex"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Unisex
+             - 
+            9
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Gender_uFilter"
+            data-id="Kids"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Kids
+             - 
+            8
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UNX-textFacet__container"
+    >
+      <div
+        className="UNX-facet__element open"
+      >
+        <div
+          className="UNX-facet__header"
+          data-unx_name="v_Colour_uFilter"
+        >
+          FILTER BY COLOUR
+        </div>
+        <div
+          className="UNX-facet__list "
+        >
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Black"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Black
+             - 
+            45
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Brown"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Brown
+             - 
+            41
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Green"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Green
+             - 
+            25
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Grey"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Grey
+             - 
+            24
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Blue"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Blue
+             - 
+            12
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Red"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Red
+             - 
+            6
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Orange"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Orange
+             - 
+            3
+          </button>
+          <button
+            className="UNX-facet__item "
+            data-facet-name="v_Colour_uFilter"
+            data-id="Yellow"
+            data-testid="UNX_textFacet__facetItem"
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Yellow
+             - 
+            2
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="UNX-products__container"
+    >
+      <div
+        className="UNX-products__list -grid grid-cols-4"
+      >
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/vasque-breeze-all-terrain-gtx-mens-hiking-boots-br/V7040W"
+            onClick={[Function]}
+          >
+            <img
+              alt="Vasque Breeze All-Terrain GTX Mens Hiking Boots - Brown Olive/Bossa Nova"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/V7040W.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Vasque Breeze All-Terrain GTX Mens Hiking Boots - Brown Olive/Bossa Nova
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                369.99
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/vasque-breeze-all-terrain-gtx-womens-hiking-boots/V7023W"
+            onClick={[Function]}
+          >
+            <img
+              alt="Vasque Breeze All-Terrain GTX Womens Hiking Boots - Gargyle"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/V7023W.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Vasque Breeze All-Terrain GTX Womens Hiking Boots - Gargyle
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                369.99
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/scarpa-phantom-6000-mountaineering-boots-black-ora/SCA40017-BlackOrange"
+            onClick={[Function]}
+          >
+            <img
+              alt="Scarpa Phantom 6000 Unisex Waterproof Mountaineering Boots"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/SCA40017-BlackOrange.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Scarpa Phantom 6000 Unisex Waterproof Mountaineering Boots
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                1099.95
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/scarpa-mont-blanc-pro-gtx-goretex-mountaineering-b/SCA40013"
+            onClick={[Function]}
+          >
+            <img
+              alt="Scarpa Mont Blanc Pro GTX Goretex Unisex Mountaineering Boots"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/SCA40013.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Scarpa Mont Blanc Pro GTX Goretex Unisex Mountaineering Boots
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                749.95
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/scarpa-terra-gtx-unisex-shoes-brown/SCA00108"
+            onClick={[Function]}
+          >
+            <img
+              alt="Scarpa Terra Goretex Unisex Waterproof Hiking Boots - Brown"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/SCA00108.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Scarpa Terra Goretex Unisex Waterproof Hiking Boots - Brown
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                349.95
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/scarpa-delta-leather-fly-mens-hiking-boots-mens-hi/SCA00090"
+            onClick={[Function]}
+          >
+            <img
+              alt="Scarpa Delta Leather Fly Mens Waterproof Hiking Boots - T.Di Moro"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/SCA00090.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Scarpa Delta Leather Fly Mens Waterproof Hiking Boots - T.Di Moro
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                399.95
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/scarpa-delta-womens-leather-waterproof-hiking-boot/SCA00065"
+            onClick={[Function]}
+          >
+            <img
+              alt="Scarpa Delta Womens Goretex Waterproof Leather Hiking Boots"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/SCA00065.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Scarpa Delta Womens Goretex Waterproof Leather Hiking Boots
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                499.95
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/salomon-quest-prime-gtx-womens-hiking-boots-ebony/411299"
+            onClick={[Function]}
+          >
+            <img
+              alt="Salomon Quest Prime GTX Womens Hiking Boots - Ebony/Black/Icy Morn"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/411299.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Salomon Quest Prime GTX Womens Hiking Boots - Ebony/Black/Icy Morn
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                299.99
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/salomon-outblast-ts-cswp-mens-hiking-boots-black-b/409223"
+            onClick={[Function]}
+          >
+            <img
+              alt="Salomon OUTblast TS CSWP Mens Hiking Boots - Black/Black/Black"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/409223.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Salomon OUTblast TS CSWP Mens Hiking Boots - Black/Black/Black
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                259.99
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="UNX-productCard__container"
+        >
+          <a
+            className="UNX-product-card UNX-grid-card"
+            href="https://www.wildearth.com.au/buy/salomon-quest-prime-gtx-mens-hiking-shoes-phantom/404637"
+            onClick={[Function]}
+          >
+            <img
+              alt="Salomon Quest Prime Goretex Mens Waterproof Hiking Boots - Phantom/Black/Quiet Shade"
+              className="-image"
+              src="https://www.wildearth.com.au/assets/full/404637.jpg"
+            />
+          </a>
+          <div
+            className="UNX-swatch__container"
+          />
+          <div
+            className="-details"
+          >
+            <div
+              className="-title"
+            >
+              Salomon Quest Prime Goretex Mens Waterproof Hiking Boots - Phantom/Black/Quiet Shade
+            </div>
+            <div
+              className="-price"
+            >
+              <span
+                className="-strike"
+              >
+                $
+                299.99
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="UNX-searchbox__container"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="UNX-searchbox__input"
+          onChange={[Function]}
+          placeholder=""
+          value="boots"
+        />
+        <button
+          aria-label="search"
+          className="UNX-searchbox__button"
+          tabIndex={0}
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+  </div>,
+]
+`;

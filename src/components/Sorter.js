@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sort } from '../@unbxd-ui/react-search-sdk/';
+import Sort from '../@unbxd-ui/react-search-sdk/src/modules/sort';
 import unbxdSearchConfig from '../unbxd-search.config.json';
 
 const label = <div className="-label">Sort by</div>;

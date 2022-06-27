@@ -4,7 +4,7 @@ import { AppContext } from '../context/context.js';
 import isEqual from 'lodash.isequal';
 import CircularProgress from '@mui/material/CircularProgress';
 import unbxdSearchConfig from '../unbxd-search.config.json';
-import UnbxdSearchWrapper from '../@unbxd-ui/react-search-sdk/';
+import UnbxdSearchWrapper from '../@unbxd-ui/react-search-sdk/src/UnbxdSearchWrapper';
 import SearchBar from '../components/SearchBar';
 import ProductsListing from '../components/ProductsListing';
 
