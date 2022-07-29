@@ -2,10 +2,12 @@
   Its configured with demo page sitekey and api key. unplublished development bundle of react sdk will be used here. Testing team can download this project
   or they can run online [here](https://stackblitz.com/edit/react-j6ngtk). 
 ## Local dev setup:
-   1. download and unzip
-   2. npm install
-   3. make sure you are installed node js and version is above 14
-   4. npm start and see the changes in [localhost](http://localhost:3000)
+   1. npm install in root
+   2. npm install for src/@unbxd-ui/react-search-sdk 
+   3. npm install for src/@unbxd-ui/unbxd-search-core
+   4. make sure node js version is 14.15.0
+   5. npm start and see the changes in [localhost](http://localhost:3000)
+   6. To use latest code, copy src from source repos to @unbxd-ui
 
 ## you can also run this in your [StackBlitz](https://stackblitz.com/)
    1. Create an account in StackBlitz using unbxd account
