@@ -5,7 +5,7 @@ import categoryMap from '../constants/categoryMap.js';
 
 import CircularProgress from '@mui/material/CircularProgress';
 import unbxdSearchConfig from '../unbxd-search.config.json';
-import UnbxdSearchWrapper from '../@unbxd-ui/react-search-sdk/';
+import UnbxdSearchWrapper from '../@unbxd-ui/react-search-sdk/src/UnbxdSearchWrapper';
 import SearchBar from '../components/SearchBar';
 import ProductsListing from '../components/ProductsListing';
 
@@ -43,9 +43,9 @@ export default function Category(props) {
     }
   }, [params, state]);
   const searchConfigurations = {
-    updateUrls: false,
+    updateUrls: true,
     searchQueryParam: 'q',
-    hashMode: false,
+    hashMode: true,
   };
   const onProductClick = (product) => {
     routeHistory(`/product/${product.uniqueId}`);
